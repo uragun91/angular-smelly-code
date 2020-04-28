@@ -19,8 +19,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "npm run start-server && ng serve",
-    "start-server": "json-server --watch db.json",
+    "start": "json-server --watch db.json && ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
