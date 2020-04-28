@@ -10,7 +10,7 @@ export class AppComponent {
   public items: any[]
 
   constructor(private http: HttpClient) {
-    this.http.get('http://localhost:3000/products/index/1')
+    this.http.get('https://angular-smelly-code.stackblitz.io:3000/products/index/1')
       .subscribe((res: any) => {
         this.items = res
       })
